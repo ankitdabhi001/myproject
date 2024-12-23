@@ -18,13 +18,14 @@
                 <li><a href="#">CONTACT</a></li>
                 <li><a href="#">ADMIN</a></li>
 				 <li><a href="#">help</a></li>
-               
+                 contact
 		
 				    <div class="hero">
+                  
                     </div>
                 </ul>
             </nav>
-            contact
+          
           
         <footer class="foot">
         <h4>This is Footer</h4>
