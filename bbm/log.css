@@ -1,0 +1,17 @@
+*{
+     background:linear-gradient(90deg,blue,red) ;
+}
+
+form label{
+	color:white;
+	 
+}
+
+h1{
+color:black;
+}
+
+form input{
+	color:white;
+	padding:15px 40px;
+}
