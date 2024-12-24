@@ -11,11 +11,11 @@
     <div id="form">
         <h1>login form</h1>
         <form name="form" method="post">
-            <label>username:</label>
+            <label name="a">UserName:</label>
             <input type="text" id="user" name="user"/></br></br>
-            <label>password:</label>
+            <label>Password:</label>
             <input type="password" id="pass" name="pass"/></br></br>
-            <input type="submit" id="btn" value="login" name="submit"/>
+            <button type="submit">LOGIN</button>
         </form>
 </div>
 

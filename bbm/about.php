@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
    <style>
     
+	.container {
+		margin-top:40px;
+	}
     .container img{
 
        
@@ -183,7 +186,7 @@ font-weight:bold;
  
 </head>
 <body>
-<h2 class="logo"><img src="download.png"><span>B</span>oat<span>B</span>ooking</h2>
+<h2 class="logo"><img src="download.png"><span>B</span>oat<span>B</span>ooking<button type="button" onclick="location.href='login.php'">LOGIN</button></h2>
 
             <nav>   
           
@@ -212,7 +215,7 @@ font-weight:bold;
 
 
 <section class="about-us">
-    <div classs ="container1">
+    <div class ="container1">
         <div class="image1">
             <img src="boat6.jpg">
 </div>
