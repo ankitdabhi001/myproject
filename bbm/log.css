@@ -6,14 +6,15 @@ body{
 }
 h1{
 	margin-left:80px;
+	color:rgb(0,102,102);
 }
 #form{
-background-color:white;
+background:linear-gradient(90deg,#F08080,#483D8B	);
 width:25%;
 margin:120px auto;
 padding:50px;
-box-shadow:10px 10px 5px rgb(82,11,77);
-border-radius:6px;
+box-shadow:8px 8px 5px white;
+border-radius:30px;
 }
 
 
