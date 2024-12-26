@@ -1,23 +1,22 @@
-*{
-     background-color:skyblue;
+body{
+     background-image: url(images/boat2.jpg);
+	 background-repeat:no-repeat;
+	 background-size:cover;
 	 
 }
 h1{
-	margin-left:570px;
+	margin-left:80px;
+}
+#form{
+background-color:white;
+width:25%;
+margin:120px auto;
+padding:50px;
+box-shadow:10px 10px 5px rgb(82,11,77);
+border-radius:6px;
 }
 
-form label{
-	
-	margin-left:500px;
-	font-weight:bold;
-	
-	 
-}
 
-
-form input{
-	color:white;
-}
 
 form button{
     color:white;
@@ -30,8 +29,8 @@ form button{
 	transform:translate(-50%,-50%);
 	padding:10px 40px;
 	margin-top:50px;
-	margin-left:650px;
 	margin-bottom:-40px;
+	margin-left:150px;
 	
 }
 form button::after{
@@ -83,3 +82,4 @@ form button:active{
 color:black;
 font-weight:bold;
 }
+*/

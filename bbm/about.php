@@ -186,7 +186,7 @@ font-weight:bold;
  
 </head>
 <body>
-<h2 class="logo"><img src="download.png"><span>B</span>oat<span>B</span>ooking<button type="button" onclick="location.href='login.php'">LOGIN</button></h2>
+<h2 class="logo"><img src="images/download.png"><span>B</span>oat<span>B</span>ooking<button type="button" onclick="location.href='login.php'">LOGIN</button></h2>
 
             <nav>   
           
