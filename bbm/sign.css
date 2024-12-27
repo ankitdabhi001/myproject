@@ -6,16 +6,18 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image:url(images/boat1.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+	 background-repeat:no-repeat;
+	 background-size:cover;
 }
 
 .container {
-    background-color: white;
+    background:linear-gradient(90deg,red,blue);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -49,6 +51,10 @@ input[type="radio"]
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
+}
+input[type="radio"]
+{
+	margin-left:-130px;
 }
 
 input[type="text"]:focus,
