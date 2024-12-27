@@ -24,7 +24,7 @@
 		background-size:cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-image:url('boat4.jpg');
+		background-image:url('images/boat4.jpg');
 		height: 800px;
 	}
 
@@ -208,7 +208,7 @@ font-weight:bold;
    <h1>About WaterBoat </h1>
 
    
-  <H6><button type="botton"onclick="contact.php">contect</botton></H6>
+  <H6><button type="botton"onclick="contact.php">CONTACT US</botton></H6>
 
   
 </div>
@@ -217,7 +217,7 @@ font-weight:bold;
 <section class="about-us">
     <div class ="container1">
         <div class="image1">
-            <img src="boat6.jpg">
+            <img src="images/boat6.jpg">
 </div>
 	</div>
 		<div class="content">
