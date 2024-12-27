@@ -40,7 +40,7 @@ echo"connection success"; */
 				
 				 if ($conn->query($q)===TRUE)
 					 {
-						echo $success_message = "New record created successfully. You can now log in.";
+						echo $success_message = "<script>alert('New record created successfully. You can now log in.')</script>";
 					} 
 					else {
 						 "Error: " . $conn->error;

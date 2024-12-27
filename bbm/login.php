@@ -34,20 +34,22 @@ include("logcon.php");
 		
 				$pass=$_POST["pass"];
 				
-				$q="SELECT * FROM log where username='$user' and password='$pass' " ;
+				$q="SELECT * FROM sign where username='$user' and pass='$pass' " ;
 				$qu=mysqli_query($conn,$q);
 		
 				if(mysqli_num_rows($qu)==1)
-				{
-					echo "Login success fully";
+				{	
+					header('location:navbar.html');
+					echo "<script>alert('Login successfully')</script>";
 				}
 				else
 				{
-					echo "<script>alert('incorrect Password')</script>";
+					echo "<script>alert('Incorrect Password or Username')</script>";
 				}
 			}
 			?>
         </form>
+		<p>You Have No Account? <a href="signup.php">SIGN UP</a></p>
 </div>
 
 
