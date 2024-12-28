@@ -7,16 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
    <style>
     
-<<<<<<< HEAD
     .about-us {
-=======
-	.container {
-		margin-top:40px;
-	}
-    .container img{
-
-       
->>>>>>> c237676c8a648d7a3ec071118a229c91be5d9df9
     width:100%;
     height:100%;
     background-size: 100% 100%;
@@ -29,7 +20,7 @@
 		background-size:cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-image:url('images/boat4.jpg');
+		background-image:url('boat4.jpg');
 		height: 800px;
 	}
 	
@@ -117,33 +108,11 @@
 		text-align: center;	
 	}
 		
-	.abouttext{
-		position: absolute;
-		margin-left: 500px;
-		margin-top: 150px;
-		text-align: center;
-	}
-	.aboutwater{
-		font-size: 3rem;
-		font-weight: 600;
-	}
-	.contactbutton{
-		background-color: #007bff;
-		color:white;
-		border:1px solid #007bff;
-		height: 40px;
-		width:100px;
-		border-radius: 10px;
-		padding-left: 15px;
-	}
-	.contactA{
-		text-decoration: none;
-	}
    </style>
  
 </head>
 <body>
-<h2 class="logo"><img src="images/download.png"><span>B</span>oat<span>B</span>ooking<button type="button" onclick="location.href='login.php'">LOGIN</button></h2>
+<h2 class="logo"><img src="download.png"><span>B</span>oat<span>B</span>ooking</h2>
 
             <nav>   
 				<ul>
@@ -160,33 +129,22 @@
 			
 			
 			<div class="container">
-				<div class="abouttext">
-			<label class="aboutwater">About Water Boat</label><br>
-			<button class="contactbutton"><a href="contact.php" class="contactA">Contact US</button></a>
-			</div>
+				
+				<div class="overlay">
+				<h1>About Water Boat</h1>		
+				 	 <a href="navbar.html">home</a> / <a href="contact.php">contact us</a>
+				</div>
 			</div>
 
 
-<<<<<<< HEAD
-=======
-   
-  <H6><button type="botton"onclick="contact.php">CONTACT US</botton></H6>
->>>>>>> c237676c8a648d7a3ec071118a229c91be5d9df9
 
 
 
 <section class="about-us">
-<<<<<<< HEAD
     <div>
         <div class="image1">
            	 <img src="boat6.jpg">
 		</div>
-=======
-    <div class ="container1">
-        <div class="image1">
-            <img src="images/boat6.jpg">
-</div>
->>>>>>> c237676c8a648d7a3ec071118a229c91be5d9df9
 	</div>
 		<div class="content">
         	<h6>about_us</h6>
