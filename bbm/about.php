@@ -7,7 +7,16 @@
     <link rel="stylesheet" type="text/css" href="style.css">
    <style>
     
+<<<<<<< HEAD
     .about-us {
+=======
+	.container {
+		margin-top:40px;
+	}
+    .container img{
+
+       
+>>>>>>> c237676c8a648d7a3ec071118a229c91be5d9df9
     width:100%;
     height:100%;
     background-size: 100% 100%;
@@ -20,7 +29,7 @@
 		background-size:cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-image:url('boat4.jpg');
+		background-image:url('images/boat4.jpg');
 		height: 800px;
 	}
 	
@@ -134,7 +143,7 @@
  
 </head>
 <body>
-<h2 class="logo"><img src="download.png"><span>B</span>oat<span>B</span>ooking</h2>
+<h2 class="logo"><img src="images/download.png"><span>B</span>oat<span>B</span>ooking<button type="button" onclick="location.href='login.php'">LOGIN</button></h2>
 
             <nav>   
 				<ul>
@@ -158,14 +167,26 @@
 			</div>
 
 
+<<<<<<< HEAD
+=======
+   
+  <H6><button type="botton"onclick="contact.php">CONTACT US</botton></H6>
+>>>>>>> c237676c8a648d7a3ec071118a229c91be5d9df9
 
 
 
 <section class="about-us">
+<<<<<<< HEAD
     <div>
         <div class="image1">
            	 <img src="boat6.jpg">
 		</div>
+=======
+    <div class ="container1">
+        <div class="image1">
+            <img src="images/boat6.jpg">
+</div>
+>>>>>>> c237676c8a648d7a3ec071118a229c91be5d9df9
 	</div>
 		<div class="content">
         	<h6>about_us</h6>
