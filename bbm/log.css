@@ -9,7 +9,7 @@ h1{
 	color:rgb(0,102,102);
 }
 #form{
-background:linear-gradient(90deg,#F08080,#483D8B	);
+background:linear-gradient(90deg,#F08080,#483D8B);
 width:25%;
 margin:120px auto;
 padding:50px;
@@ -19,7 +19,8 @@ border-radius:30px;
 p 
 {
 margin-top:30px;
-}a{
+}
+a{
 	color:blue;	
 }
 

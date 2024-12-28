@@ -6,23 +6,25 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image:url(images/boat1.jpg);
-    display: flex;
+    background-image:url(images/boat6.jpg);
+    display:flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-	 background-repeat:no-repeat;
-	 background-size:cover;
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 .container {
-    background:linear-gradient(90deg,red,blue);
+    background:linear-gradient(90deg,purple,darkred);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
+    width:80%;
+	max-width:400px;
+	
+    
 }
 
 h2 {
@@ -37,7 +39,7 @@ h2 {
 label {
     display: ;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom:5px;
 }
 
 input[type="text"],
