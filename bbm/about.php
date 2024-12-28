@@ -7,6 +7,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
    <style>
     
+   
+   *{
+	margin: 0px;
+	padding:0px;
+   }
+   
     .about-us {
     width:100%;
     height:100%;
