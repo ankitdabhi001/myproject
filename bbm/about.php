@@ -20,7 +20,7 @@
 		background-size:cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-image:url('boat4.jpg');
+		background-image:url('images/boat4.jpg');
 		height: 800px;
 	}
 	
@@ -112,7 +112,7 @@
  
 </head>
 <body>
-<h2 class="logo"><img src="download.png"><span>B</span>oat<span>B</span>ooking</h2>
+<h2 class="logo"><img src="images/download.png"><span>B</span>oat<span>B</span>ooking</h2>
 
             <nav>   
 				<ul>
@@ -143,7 +143,7 @@
 <section class="about-us">
     <div>
         <div class="image1">
-           	 <img src="boat6.jpg">
+           	 <img src="images/boat6.jpg">
 		</div>
 	</div>
 		<div class="content">
