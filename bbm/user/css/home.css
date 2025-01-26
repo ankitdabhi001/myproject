@@ -1,0 +1,113 @@
+.home{
+    display:flex;   
+    align-items:center;
+    padding:50px 20px;
+    	
+}
+
+.image1 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: 40px;
+    margin-left:50px;
+  }
+   
+ .text1 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgba(106, 101, 101, 0.701);
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 41px;
+    margin-top:10px;
+    text-align: center;
+   }
+
+.image2 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: 40px;
+   }
+
+   .text2 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgba(106, 101, 101, 0.701);
+    padding: 10px;
+    margin-right: 41px;
+    margin-top:10px;
+    text-align: center;
+       }
+
+   .image3 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: 40px;
+   }
+
+   .text3 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgba(106, 101, 101, 0.701);
+    padding: 10px;
+    margin-top:10px;
+    margin-right: 41px;
+    text-align: center;
+       }
+
+   .image4 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: -10px;
+   }
+
+   .text4 h3{   
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgba(106, 101, 101, 0.701);
+    padding: 10px;
+    margin-top:10px;
+    text-align: center;
+       }
+
+       .i{
+        display:flex;
+        padding-top: 30px;
+       }
+
+       h1{
+        padding: 30px;
+        background-color: rgb(144, 144, 229);
+        width:30%;
+        margin-left: 400px;
+        border-radius: 10px;
+       }
+
+       .img{
+
+        text-align: center;
+        padding-top: 20%;
+        font-size: xx-large;
+    
+       }
+
+       @keyframes changeImage {
+        0%{
+        
+            background-image: url(images/boat6.jpg);
+        }
+       
+        50%{
+            background-image: url(images/boat9.jpg);
+        }
+
+        100%{
+            background-image: url(images/boat12.jpg);
+
+        }
+        
+    }

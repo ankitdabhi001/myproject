@@ -1,0 +1,13 @@
+h1
+{
+	color:red;
+	height:900px;
+	padding-top:100px;
+}
+
+.con{
+	background-size:cover; 
+	background-image:url(images/boat12.jpg);
+	
+	
+}

@@ -1,0 +1,155 @@
+.img
+{
+
+    background-image:url(images/boat10.jpg);
+    background-size: cover;
+}
+.tex
+{
+    margin-left: 500px;
+    color: rgba(94, 11, 156, 0.813);
+    font-size: x-large;
+    font-weight: bold;
+    font-variant-caps: small-caps;
+
+}
+.home
+{
+    display:flex;   
+    align-items:center;
+    padding:50px 20px;
+    	
+}
+
+.image1 img
+ {
+    max-width:100%;
+    display:block;
+    height:250px;
+    width:350;
+    padding-right: 40px;
+    margin-left:100px;
+
+  }
+   
+ .text1 h3
+ {
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgba(106, 101, 101, 0.701);
+    padding-bottom: 30px;
+    margin-left: 100px; 
+    padding: 5px;
+    text-align: center;
+    margin-top:10px;
+    padding-left: -40px;
+    margin-right:40px;
+    
+}
+
+.image2 img 
+{
+    max-width:100%;
+    display:block;
+    height:250px;
+    width:350;
+    padding-right: 40px;
+}
+
+   .text2 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgba(106, 101, 101, 0.701);
+    padding: 5px;
+    margin-right: 41px;
+    margin-top:10px;
+    text-align: center;
+       }
+
+   .image3 img {
+    max-width:100%;
+    display:block;
+    height:250px;
+    width:350;
+    padding-right: 0px;
+   }
+
+   .text3 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgba(106, 101, 101, 0.701);
+    padding: 5px;
+    margin-right: 0px;
+    margin-top:10px;
+    text-align: center;
+       }  
+
+       .one{
+        display:flex;
+        padding-top: 20px;
+        align-content: center;
+       }
+
+       h1{
+        padding: 30px;
+        background-color: rgb(144, 144, 229);
+        width:30%;
+        margin-left: 400px;
+        border-radius: 10px;
+       }
+
+       #a{
+        height: 30px;
+        padding-left:-30px;
+        margin-bottom: -22px;
+       
+       }
+       
+       .svg1{
+        padding-bottom:-10px;
+        margin-top: 5px;
+        margin-left: -80px;
+        
+       }
+      
+
+       #b{
+        height: 30px;
+        padding-left:-100px;
+        margin-bottom: -22px;
+       
+       }
+       
+       .svg2{
+        padding-bottom:-10px;
+        margin-top: 5px;
+        margin-left: 15px;
+        
+       }
+
+       #c{
+        height: 30px;
+        padding-left:-30px;
+        margin-bottom: -22px;
+       
+       }
+       
+       .svg3{
+        padding-bottom:-10px;
+        margin-top: 5px;
+        margin-left: -5px;
+        
+       }
+
+       #d{
+        height: 30px;
+        padding-left:-30px;
+        margin-bottom: -22px;     
+       }
+
+       .two{
+        display:flex;
+        padding-top: 20px;
+        align-content: right;
+       }
+
+       .r1{
+        background-color: red;
+       }
