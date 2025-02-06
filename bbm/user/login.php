@@ -1,6 +1,10 @@
 <?php
+session_start();
 include("logcon.php");
+error_reporting(0);
+//echo $_SESSION['log1'];
 ?>
+
 
 <!DOCTYPE html>
 
@@ -16,7 +20,9 @@ include("logcon.php");
 	
 </head>
 <body>
-
+<?php
+include("navigation.php");
+?>
     <div id="form">
 	
         <h1>login form</h1>
@@ -26,29 +32,31 @@ include("logcon.php");
             <label>Password:</label>
             <input type="password" id="pass" name="pass"/></br></br>
             <button type="submit" name="bt">LOGIN</button>
+			   </form>
 			<?php
 			
 			if(isset($_POST["bt"]))
 			{
 				$user=$_POST["user"];
-		
 				$pass=$_POST["pass"];
-				
 				$q="SELECT * FROM sign where username='$user' and pass='$pass' " ;
 				$qu=mysqli_query($conn,$q);
-		
 				if(mysqli_num_rows($qu)==1)
 				{	
-					header('location:home.php');
 					echo "<script>alert('Login successfully')</script>";
+					header('location:home.php');
+					$_SESSION['log1']='login';
+					echo $_SESSION['log1'];
 				}
 				else
 				{
 					echo "<script>alert('Incorrect Password or Username')</script>";
+					$_SESSION['log1']='logout';
+					echo $_SESSION['log1'];	
 				}
 			}
 			?>
-        </form>
+     
 		<p>You Have No Account? <a href="signup.php">SIGN UP</a></p>
 </div>
 
@@ -56,3 +64,7 @@ include("logcon.php");
 
 </body>
 </html>
+
+<?php
+include("fotter.php");
+?>

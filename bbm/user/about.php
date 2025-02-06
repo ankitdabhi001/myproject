@@ -17,10 +17,10 @@ include("navigation.php");
 			
 			<div class="container">
 				<div class="overlay">
-				<h1>About Water Boat</h1>		
+				<a id="abb">About Water Boat</a>		
 				 	<div class="home">
-					<a id="n1" href="home.php">home</a> 
-					 <a id="n1"href="contact.php">contact us</a>
+					<a id="n1" href="home.php" class="aa">home</a> 
+					 <a id="n1"href="contact.php" class="bb">contact us</a>
 					 	</div> 
 				</div>
 			</div>

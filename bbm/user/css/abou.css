@@ -1,4 +1,4 @@
- *{
+*{
 	margin: 0px;
 	padding:0px;
    }
@@ -7,6 +7,14 @@
    #n1{
 	   margin:20px;
 	   color:blue;
+	   display:block;
+		top:0;
+		left:0;
+		right:10;
+		bottom:0;
+		display: flex;
+		color: white;
+		text-align: center;
    }
    
  
@@ -100,18 +108,9 @@
 		
 	}
 
-	h1{
-		font-size:3rem;
-		margin-top: 0;
+	#abb{
+    padding-left: 500px;
+	size: 30px;
+	color:white;
 	}
 	
-	a{
-		display: block;
-		top:0;
-		left:0;
-		right:10; 
-		bottom:0;
-		display:flex;
-		color:white;
-		text-align:center;	
-	}

@@ -1,11 +1,10 @@
-.img
-{
+.img{
 
     background-image:url(images/boat10.jpg);
     background-size: cover;
+    height: 500px;
 }
-.tex
-{
+.tex{
     margin-left: 500px;
     color: rgba(94, 11, 156, 0.813);
     font-size: x-large;
@@ -13,52 +12,54 @@
     font-variant-caps: small-caps;
 
 }
-.home
-{
+.home{
     display:flex;   
     align-items:center;
-    padding:50px 20px;
+    padding:50px 50px;
     	
 }
 
-.image1 img
- {
+
+.home1{
+    display:flex;   
+    align-items:center;
+    padding:50px 50px;
+    	
+}
+
+
+.image1 img {
     max-width:100%;
     display:block;
-    height:250px;
+    height:200px;
     width:350;
     padding-right: 40px;
-    margin-left:100px;
-
+    margin-left:50px;
   }
    
- .text1 h3
- {
+ .text1 h3{
     color:rgba(4, 77, 108, 0.884);
-    background-color: rgba(106, 101, 101, 0.701);
-    padding-bottom: 30px;
-    margin-left: 100px; 
-    padding: 5px;
-    text-align: center;
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 41px;
     margin-top:10px;
-    padding-left: -40px;
-    margin-right:40px;
+    text-align: center;
     
-}
+   }
 
-.image2 img 
-{
+.image2 img {
     max-width:100%;
     display:block;
-    height:250px;
+    height:200px;
     width:350;
     padding-right: 40px;
-}
+   }
 
    .text2 h3{
     color:rgba(4, 77, 108, 0.884);
-    background-color: rgba(106, 101, 101, 0.701);
-    padding: 5px;
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
     margin-right: 41px;
     margin-top:10px;
     text-align: center;
@@ -67,25 +68,46 @@
    .image3 img {
     max-width:100%;
     display:block;
-    height:250px;
+    height:200px;
     width:350;
-    padding-right: 0px;
+    padding-right: 40px;
    }
 
    .text3 h3{
     color:rgba(4, 77, 108, 0.884);
-    background-color: rgba(106, 101, 101, 0.701);
-    padding: 5px;
-    margin-right: 0px;
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
+    margin-top:10px;
+    margin-right: 41px;
+    text-align: center;
+       }
+
+   .image4 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: -10px;
+   }
+
+   .text4 h3{   
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
     margin-top:10px;
     text-align: center;
-       }  
-
-       .one{
-        display:flex;
-        padding-top: 20px;
-        align-content: center;
        }
+
+       .i{
+        display:flex;
+        padding-top: 30px;
+       }
+
+       .i1{
+        display:flex;
+        padding-top: 30px;
+       }
+
 
        h1{
         padding: 30px;
@@ -95,61 +117,125 @@
         border-radius: 10px;
        }
 
-       #a{
-        height: 30px;
-        padding-left:-30px;
-        margin-bottom: -22px;
-       
-       }
-       
-       .svg1{
-        padding-bottom:-10px;
-        margin-top: 5px;
-        margin-left: -80px;
-        
-       }
-      
+    .book {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn:hover {
+        background-color: black;
+    }
+    
+    .price {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
 
-       #b{
-        height: 30px;
-        padding-left:-100px;
-        margin-bottom: -22px;
-       
-       }
-       
-       .svg2{
-        padding-bottom:-10px;
-        margin-top: 5px;
-        margin-left: 15px;
-        
-       }
 
-       #c{
-        height: 30px;
-        padding-left:-30px;
-        margin-bottom: -22px;
-       
-       }
-       
-       .svg3{
-        padding-bottom:-10px;
-        margin-top: 5px;
-        margin-left: -5px;
-        
-       }
+    
+    .book2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn2 {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn2:hover {
+        background-color: black;
+    }
+    
+    .price2 {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
 
-       #d{
-        height: 30px;
-        padding-left:-30px;
-        margin-bottom: -22px;     
-       }
 
-       .two{
-        display:flex;
-        padding-top: 20px;
-        align-content: right;
-       }
 
-       .r1{
-        background-color: red;
-       }
+    .book3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn3 {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn3:hover {
+        background-color: black;
+    }
+    
+    .price3 {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+
+
+    .book4 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn4 {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn4:hover {
+        background-color: black;
+    }
+    
+    .price4 {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+

@@ -21,28 +21,28 @@ include("navigation.php");
         <div class="image1">
                  <img src="css/images/boat1.jpg">
         <div class="text1">
-      <h3>Har Ki Pauri</h3>
+      <h3>Dwarka-Gomti</h3>
     </div>
     </div>
 
     <div class="image2">
           <img src="css/images/boat2.jpg">
           <div class="text2">
-      <h3>Vishnu Ghat</h3>
+      <h3>dwarka-gomti</h3>
     </div>
     </div>
 
     <div class="image3">
           <img src="css/images/boat3.jpg">
           <div class="text3">
-      <h3>Ram Ghat</h3>
+      <h3>dwarka-gomti</h3>
     </div>
     </div>
 
     <div class="image4">
           <img src="css/images/boat4.jpg">
           <div class="text4">
-      <h3>Subhash Ghat</h3>
+      <h3>dwarka-gomti</h3>
     </div>
     </div>
 </div>

@@ -1,19 +1,20 @@
 body{
-     background-image: url(images/boat1.jpg);
+     background-image: url(images/boat3.jpg);
 	 background-repeat:no-repeat;
 	 background-size:cover;
 	 
 }
 h1{
 	margin-left:80px;
-	color:rgb(0,102,102);
+	color:rgb(0, 0, 1);
 }
 #form{
-background:linear-gradient(90deg,#F08080,#483D8B);
-width:25%;
+
+backdrop-filter:blur(10px);
+width:30%;
 margin:120px auto;
 padding:50px;
-box-shadow:8px 8px 5px white;
+box-shadow:8px 8px 8px white;
 border-radius:30px;
 }
 p 

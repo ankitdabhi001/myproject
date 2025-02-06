@@ -13,60 +13,121 @@ include("navigation.php");
 <body>
    
 <div class="img">
-<div class="tex"></div>
+
 </div>
 
 <section class="home">
         <div class="serv">
   <h1 align="center">Our Services</h1>
 
-<div class="one" >
+<div class="i">
         <div class="image1">
                 <img src="css/images/boat1.jpg">
-        <div class="text1">
-      <h3><div class="svg1"><img id="a" src="css/images/location.svg"></div>Har ki Pauri - Gau Ghat<div class="r1">₹ 80</div></h3>
-    </div>
-    </div>
+                <div class="text1">
+                    <h3>Dwarka-Gomti
+                        <div class="book">    
+                          <button class="book-btn" onclick="location.href='book.php'">BOOK</button>
+                          <span class="price">₹2500</span>
+                        </div>   
+                      </h3>   
+                </div>      
+        </div>
 
     <div class="image2">
           <img src="css/images/boat2.jpg">
           <div class="text2">
-      <h3><div class="svg2"><img id="b" src="css/images/location.svg"></div>Vishnu Ghat - Ram Ghat</h3>
-    </div>
+                       <h3>dwarka-gomti
+                         <div class="book2">    
+                              <button class="book-btn2"  onclick="location.href='book.php'">BOOK</button>
+                              <span class="price2">₹4999</span>
+                        </div>   
+                      </h3>
+            </div>
     </div>
 
     <div class="image3">
-          <img src="css/images/boat3.jpg">
+           <img src="css/images/boat3.jpg">
           <div class="text3">
-      <h3><div class="svg3"><img id="c" src="css/images/location.svg"></div>Subhash Ghat - Kusha Ghat</h3>
+              <h3>dwarka-gomti
+                <div class="book3">  
+                    <button class="book-btn3"  onclick="location.href='book.php'">BOOK</button>
+                    <span class="price3">₹2999</span>
+                 </div> 
+              </h3>
+         </div>
     </div>
-</div>    
+
+    <div class="image4">
+          <img src="css/images/boat4.jpg">
+         <div class="text4">
+                  <h3>dwarka-gomti
+                      <div class="book4">    
+                        <button class="book-btn4"  onclick="location.href='book.php'">BOOK</button>
+                          <span class="price4">₹1800</span>
+                      </div> 
+                  </h3>
+         </div>
     </div>
-    <div class="two" >
+
+
+</div>
+</div> 
+
+</section>
+
+<section class="home1">
+
+
+<div class="i1">
 <div class="image1">
                 <img src="css/images/boat1.jpg">
-        <div class="text1">
-      <h3><div class="svg1"><img id="a" src="css/images/location.svg"></div>Asthi Ghat - Ganga Aarti</h3>
-    </div>
-    </div>
+                <div class="text1">
+                    <h3>Dwarka-Gomti
+                        <div class="book">    
+                          <button class="book-btn" onclick="location.href='book.php'">BOOK</button>
+                          <span class="price">₹2500</span>
+                        </div>   
+                      </h3>   
+                </div>      
+        </div>
 
     <div class="image2">
           <img src="css/images/boat2.jpg">
           <div class="text2">
-      <h3><div class="svg2"><img id="b" src="css/images/location.svg"></div>Vip Ghat - Singh Ghat</h3>
-    </div>
+                       <h3>dwarka-gomti
+                         <div class="book2">    
+                              <button class="book-btn2"  onclick="location.href='book.php'">BOOK</button>
+                              <span class="price2">₹4999</span>
+                        </div>   
+                      </h3>
+            </div>
     </div>
 
     <div class="image3">
-          <img src="css/images/boat3.jpg">
+           <img src="css/images/boat3.jpg">
           <div class="text3">
-      <h3><div class="svg3"><img id="c" src="css/images/location.svg"></div>Param Ghat - Puljatwara Ghat</h3>
+              <h3>dwarka-gomti
+                <div class="book3">  
+                    <button class="book-btn3"  onclick="location.href='book.php'">BOOK</button>
+                    <span class="price3">₹2999</span>
+                 </div> 
+              </h3>
+         </div>
     </div>
-</div>    
 
-</div>
-</div>
-</section>
+    <div class="image4">
+          <img src="css/images/boat4.jpg">
+         <div class="text4">
+                  <h3>dwarka-gomti
+                      <div class="book4">    
+                        <button class="book-btn4"  onclick="location.href='book.php'">BOOK</button>
+                          <span class="price4">₹1800</span>
+                      </div> 
+                  </h3>
+         </div>
+    </div>
+
+</section>    
 </body>
 </html>
 
