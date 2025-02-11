@@ -1,9 +1,28 @@
-<?php
-$conn = new mysqli("localhost", "root", "", "boat");
 
-$query = "select * from sign";
-$result = mysqli_query($conn, $query);
-$row = mysqli_fetch_assoc($result);
+<?php
+session_start();
+include('logcon.php');
+
+$id = $_SESSION["userid"];
+
+$query = "select * from sign where uid=$id";
+$resul1t = mysqli_query($conn, $query);
+$row1 = mysqli_fetch_assoc($result1);
+
+
+if(isset($_POST["submit"]))
+{
+	 $id = $_GET["id"];
+    $name=$_POST["name"];
+    $mobile=$_POST["mobile"];
+    $email=$_POST["email"];
+    $pass=$_POST["pass"];
+    $repass=$_POST["repass"];
+
+
+$query1="UPDATE `sign` SET `phone`=' $mobile',`email`='$email',`pass`='$pass',`confirm`='$repass' WHERE username='$name'";
+$result1 = mysqli_query($conn, $query1);
+}
 ?>
 
 
@@ -26,30 +45,32 @@ $row = mysqli_fetch_assoc($result);
         </div>
         <div class="profile-form">
             <h2>Profile Settings</h2>
-            <form>
+            <form method="post">
                 <div class="form-group">
                     <label>Name</label>
-                    <input type="text" placeholder="First Name">
+                    <input type="text" name="name" placeholder="First Name">
                 </div>
                 <div class="form-group">
                     <label>Mobile Number</label>
-                    <input type="text" placeholder="Enter phone number">
+                    <input type="text"   name="mobile" placeholder="Enter phone number">
                 </div>
                 <div class="form-group">
                     <label>Email ID</label>
-                    <input type="email" placeholder="Enter email ID">
+                    <input type="email"  name="email" placeholder="Enter email ID">
                 </div>
                 <div class="form-group">
                     <label>Password</label>
-                    <input type="text" placeholder="Password">
+                    <input type="text"  name="pass" placeholder="Password">
                 </div>
 
                 <div class="form-group">
                     <label>Confirm Password</label>
-                    <input type="text" placeholder="Confirm Password">
+                    <input type="text"   name="repass" placeholder="Confirm Password">
                 </div>
 
-                <button type="submit" class="save-btn">Save Profile</button>
+                <input type="submit" name="submit" id="s1"></input>
+
+              
             </form>
         </div>
     </div>

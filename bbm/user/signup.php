@@ -23,16 +23,8 @@ if (isset($_POST["signup"])) {
     $pass = $_POST["password"];
 
     $confirm = $_POST["confirm"];
-
-
-
-
     $check_email = "select * from sign where email='$email'";
     $check = $conn->query($check_email);
-
-   // $q = "INSERT INTO  sign (username,phone, email, pass,confirm) VALUES ('$username',$phone, '$email', '$pass','$confirm')";
-    //$qu = mysqli_query($conn, $q);
-
 
     if ($check->num_rows > 0) {
         echo "<script>alert('this email is alredy taken please select another email')</script>";

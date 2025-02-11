@@ -78,7 +78,7 @@ body {
     width: 48%;
 }
 
-.save-btn {
+#s1{
     background: #0b427d;
     color: white;
     padding: 12px;
@@ -89,6 +89,6 @@ body {
     font-size: 16px;
 }
 
-.save-btn:hover {
+#s1:hover {
     background: #4a215f;
 }

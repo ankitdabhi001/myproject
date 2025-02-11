@@ -18,10 +18,7 @@ include("navigation.php");
 			<div class="container">
 				<div class="overlay">
 				<a id="abb">About Water Boat</a>		
-				 	<div class="home">
-					<a id="n1" href="home.php" class="aa">home</a> 
-					 <a id="n1"href="contact.php" class="bb">contact us</a>
-					 	</div> 
+				 	
 				</div>
 			</div>
 <section class="about-us">

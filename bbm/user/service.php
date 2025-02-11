@@ -36,7 +36,7 @@ include("navigation.php");
     <div class="image2">
           <img src="css/images/boat2.jpg">
           <div class="text2">
-                       <h3>dwarka-gomti
+                       <h3>ganga ghat
                          <div class="book2">    
                               <button class="book-btn2"  onclick="location.href='book.php'">BOOK</button>
                               <span class="price2">₹4999</span>

@@ -10,6 +10,7 @@ body {
 }
 
 .container {
+    margin-top: 100px;
     display: flex;
     width: 80%;
     background: white;
@@ -69,8 +70,8 @@ body {
 }
 
 
-.save-btn {
-    background: #0b427d;
+#save{
+    background: #728498;
     color: white;
     padding: 12px;
     width: 100%;
@@ -78,6 +79,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .save-btn:hover {

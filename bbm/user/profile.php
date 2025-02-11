@@ -1,7 +1,10 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "boat");
+session_start();
+include('logcon.php');
 
-$query = "select * from sign";
+$id = $_SESSION["userid"];
+
+$query = "select * from sign where uid=$id";
 $result = mysqli_query($conn, $query);
 $row = mysqli_fetch_assoc($result);
 ?>
@@ -28,28 +31,22 @@ $row = mysqli_fetch_assoc($result);
             <h2>Profile Settings</h2>
             <form>
                 <div class="form-group">
-                    <label>Name :-  <a id="user"><?php echo $row['username']; ?></a></label> 
+                    <label for="name">Name :- </label> 
+					 <input type="text" name="name" id="name" value="<?php echo $row["username"]; ?>" readonly>
                     
                 </div>
                 <div class="form-group">
-                    <label>Mobile Number :-</label>
+                    <label for="mobile">Mobile Number :-</label>
+					<input type="text" name="mono" id="phone" minlength="10" maxlength="10" value="<?php echo $row["phone"]; ?>" readonly>
                     
                 </div>
                 <div class="form-group">
-                    <label>Email ID :-</label>
+                    <label for="email">Email ID :-</label>
+					 <input type="email" name="Email" id="email"  value="<?php echo $row["email"]; ?>" readonly>
                     
-                </div>
-                <div class="form-group">
-                    <label>Password :-</label>
-                    
-                </div>
+</div>
 
-                <div class="form-group">
-                    <label>Confirm Password :-</label>
-                  
-                </div>
-
-                <button type="submit" onclick="" class="save-btn">Edit Profile</button>
+                <a id="save" href="ppp.php">Edit Profile</a>
             </form>
         </div>
     </div>
