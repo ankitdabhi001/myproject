@@ -5,39 +5,40 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-image:url(images/boat6.jpg);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    
+    background-image:url(images/boat9.jpg);
     margin: 0;
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 
 .container {
-    background:linear-gradient(90deg,purple,darkred);
+    backdrop-filter:blur(4px);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width:80%;
 	max-width:400px;
-	
+	margin-left: 500px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     
 }
 
-h2 {
+
+
+h3 {
     text-align: center;
     margin-bottom: 20px;
 }
 
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px; 
+   
 }
 
 label {
-    display: ;
+
     font-weight: bold;
     margin-bottom:5px;
 }
@@ -58,7 +59,7 @@ input[type="radio"]
 {
 	margin-left:-130px;
 }
-
+/*
 input[type="text"]:focus,
 input[type="phone"]:focus,
 input[type="email"]:focus,
@@ -66,8 +67,9 @@ input[type="password"]:focus
  {
     border-color: #007bff;
 }
+*/
 
-.submit-btn {
+.submit {
     width: 100%;
     padding: 10px;
     background-color: #007bff;
@@ -76,9 +78,10 @@ input[type="password"]:focus
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.submit-btn:hover {
+.submit:hover {
     background-color: #0056b3;
 }
 
@@ -92,6 +95,10 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+
+
+label[id="ma"]
+{
+color:white;
+padding-left: -60px;
 }

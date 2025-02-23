@@ -16,13 +16,7 @@ include("navigation.php");
 <body>
 			
 			<div class="container">
-				<div class="overlay">
-				<h1>About Water Boat</h1>		
-				 	<div class="home">
-					<a id="n1" href="home.php">home</a> 
-					 <a id="n1"href="contact.php">contact us</a>
-					 	</div> 
-				</div>
+				
 			</div>
 <section class="about-us">
     
@@ -30,7 +24,7 @@ include("navigation.php");
            	 <img src="css/images/compass.jpg">
 		</div>
 		<div class="content">
-        	<h6>about_us</h6>
+        	<h6>About Us</h6>
    			 <h3>welcome to our website</h3>
  			    <div class="content1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, illum, quasi. Odit velit deserunt eligendi unde, enim. Enim fugiat.</p></div>
 				<div class="content2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium eius ullam impedit architecto debitis facilis! </p></div>
@@ -43,3 +37,6 @@ include("navigation.php");
 		?> 
 </body>
 </html>
+
+
+

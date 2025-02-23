@@ -1,12 +1,79 @@
-h1
-{
-	color:red;
-	height:900px;
-	padding-top:100px;
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(#ffdad5,#ffdad9);
+}
+.contact{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:20px;
 
-.con{
-	background-size:cover; 
-	background-image:url(images/boat1.jpg);
-	
+}
+.contact-left-title p{
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+   border: none;
+   width: 120px;
+   height: 5px;
+   background-color: #a363aa;
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color:#666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: #a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+}
+.contact-left button img{
+    height: 15px;
+}
+.contact-right img{
+    width: 500px;
+}
+@media(max-width:800px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
 }

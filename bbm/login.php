@@ -1,5 +1,6 @@
 <?php
 include("logcon.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +17,9 @@ include("logcon.php");
 	
 </head>
 <body>
-
+<?php
+include("navigation.php");
+?>
     <div id="form">
 	
         <h1>login form</h1>
@@ -26,21 +29,19 @@ include("logcon.php");
             <label>Password:</label>
             <input type="password" id="pass" name="pass"/></br></br>
             <button type="submit" name="bt">LOGIN</button>
+			   </form>
 			<?php
 			
 			if(isset($_POST["bt"]))
 			{
 				$user=$_POST["user"];
-		
 				$pass=$_POST["pass"];
-				
 				$q="SELECT * FROM sign where username='$user' and pass='$pass' " ;
 				$qu=mysqli_query($conn,$q);
-		
 				if(mysqli_num_rows($qu)==1)
 				{	
-					header('location:navbar.html');
 					echo "<script>alert('Login successfully')</script>";
+					header('location:home.php');
 				}
 				else
 				{
@@ -48,7 +49,7 @@ include("logcon.php");
 				}
 			}
 			?>
-        </form>
+     
 		<p>You Have No Account? <a href="signup.php">SIGN UP</a></p>
 </div>
 
@@ -56,3 +57,7 @@ include("logcon.php");
 
 </body>
 </html>
+
+<?php
+include("fotter.php");
+?>

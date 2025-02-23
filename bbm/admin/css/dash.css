@@ -1,0 +1,153 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+.sub5{
+background-color:rgb(9, 179, 201);    
+height: 130px;
+width:300px;
+margin-top: -600px;
+padding-top:30px;
+margin-right: -400px;
+color: white;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+    margin-left: 300px;
+}
+
+label{
+margin-left: 10px;
+}
+
+.m11{
+
+    background-color: rgb(4, 127, 143);   
+    color: rgba(255, 255, 255, .8);
+    display:block;
+    text-align: center;
+    text-decoration:none;
+    margin-top: 55px;
+    padding: 8px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+} 
+
+.book5{
+    background-color:#007bff;    
+    height: 130px;
+    width:300px;
+    margin-top: -160px;
+    padding-top:30px;
+    margin-left:20px;
+    color: white;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    
+    margin-left: 610px;
+    }
+ 
+    .m22{
+
+        background-color: #035ebf;    
+        color: rgba(255, 255, 255, .8);
+        display:block;
+        text-align: center;
+        text-decoration:none;
+        margin-top: 55px;
+        padding: 8px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+        
+    } 
+
+    .newbooking5{
+        background-color: #f8c733;   
+        height: 130px;
+        width:300px;
+        margin-top: -160px;
+        padding-top:30px;
+        margin-left:20px;
+        color: black;
+        border-top-left-radius:4px;
+        border-top-right-radius:4px;
+        margin-left: 920px;
+        }
+
+        .m33{
+
+            background-color:#daa507;    
+            color: Black;
+            display:block;
+            text-align: center;
+            text-decoration:none;
+            margin-top: 55px;
+            padding: 8px;
+            border-bottom-right-radius: 4px;
+            border-bottom-left-radius: 4px;
+            
+        } 
+
+        .acceptbooking5{
+            background-color: green;  
+            height: 130px;
+            width:300px;
+            padding-top:30px;
+            margin-left:300px;
+            color: black;
+            border-top-left-radius:4px;
+            border-top-right-radius:4px;
+            margin-top: 10px;
+        
+            }
+    
+            .m44{
+    
+                background-color: rgb(2, 102, 2);    
+                color: Black;
+                display:block;
+                text-align: center;
+                text-decoration:none;
+                margin-top: 55px;
+                padding: 8px;
+                border-bottom-right-radius: 4px;
+                border-bottom-left-radius: 4px;
+            } 
+
+            .rejectbooking5{
+                background-color:   #dc3545;  
+                height: 130px;
+                width:300px;
+                padding-top:30px;
+                margin-left:610px;
+                color: black;
+                border-top-left-radius:4px;
+                border-top-right-radius:4px;
+                margin-top: -160px;
+            
+                }
+        
+                .m55{
+        
+                    background-color: #a80818;    
+                    color: Black;
+                    display:block;
+                    text-align: center;
+                    text-decoration:none;
+                    margin-top: 55px;
+                    padding: 8px;
+                    border-bottom-right-radius: 4px;
+                    border-bottom-left-radius: 4px;
+                    transition: background-color 0.3s;
+                } 
+
+
+
+.dash{
+  
+    
+    flex-wrap: wrap; 
+    
+}
+

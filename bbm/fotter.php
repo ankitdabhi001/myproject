@@ -11,11 +11,11 @@
 <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h3>Lucknow</h3>
-                <p>Mountain View, 856, UP</p>
+                <h3>Haridwar</h3>
+                <p>Sea View, 856, UP</p>
             </div>
             <div class="footer-section">
-                <p><strong>📞</strong> +91-8956231478</p>
+                <p><strong>📞</strong> +91-1234567890</p>
                 <p>Toll free</p>
             </div>
             <div class="footer-section">
