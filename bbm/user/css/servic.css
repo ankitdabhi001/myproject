@@ -1,0 +1,313 @@
+<<<<<<< HEAD:bbm/css/servic.css
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.serv{
+    margin-top: 20px;
+    text-align: center;
+    background-color: #00aaff;
+}
+
+.img {
+  background-image: url(images/boat10.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text1{
+    margin: 10px;
+    margin-bottom: 10px;
+  width: calc(99%/4);
+  
+}
+
+.text1 img {
+  height: 80%;
+  width: 100%;
+}
+
+.info {
+  width: 100%;
+  height: 10%;
+  margin-top: 10px;
+}
+.info h3 {
+  color: rgba(4, 77, 108, 0.884);
+  background-color: rgb(216, 68, 68);
+  text-align: center;
+}
+
+.book-btn {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-btn:hover {
+  background-color: black;
+}
+
+.price {
+  background-color: #00aaff;
+  color: black;
+  padding: 4px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+=======
+.img{
+
+    background-image:url(images/boat10.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.tex{
+    margin-left: 500px;
+    color: rgba(94, 11, 156, 0.813);
+    font-size: x-large;
+    font-weight: bold;
+    font-variant-caps: small-caps;
+
+}
+.home{
+    display:flex;   
+    align-items:center;
+    padding:50px 50px;
+    	
+}
+
+
+.home1{
+    display:flex;   
+    align-items:center;
+    padding:50px 50px;
+    	
+}
+
+
+.image1 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: 40px;
+    margin-left:50px;
+  }
+   
+ .text1 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 41px;
+    margin-top:10px;
+    text-align: center;
+    
+   }
+
+.image2 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: 40px;
+   }
+
+   .text2 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
+    margin-right: 41px;
+    margin-top:10px;
+    text-align: center;
+       }
+
+   .image3 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: 40px;
+   }
+
+   .text3 h3{
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
+    margin-top:10px;
+    margin-right: 41px;
+    text-align: center;
+       }
+
+   .image4 img {
+    max-width:100%;
+    display:block;
+    height:200px;
+    width:350;
+    padding-right: -10px;
+   }
+
+   .text4 h3{   
+    color:rgba(4, 77, 108, 0.884);
+    background-color: rgb(216, 68, 68);
+    padding: 10px;
+    margin-top:10px;
+    text-align: center;
+       }
+
+       .i{
+        display:flex;
+        padding-top: 30px;
+       }
+
+       .i1{
+        display:flex;
+        padding-top: 30px;
+       }
+
+
+       h1{
+        padding: 30px;
+        background-color: rgb(144, 144, 229);
+        width:30%;
+        margin-left: 400px;
+        border-radius: 10px;
+       }
+
+    .book {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn:hover {
+        background-color: black;
+    }
+    
+    .price {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+
+    
+    .book2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn2 {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn2:hover {
+        background-color: black;
+    }
+    
+    .price2 {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+
+
+    .book3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn3 {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn3:hover {
+        background-color: black;
+    }
+    
+    .price3 {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+
+
+    .book4 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .book-btn4 {
+        background-color: #00aaff;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .book-btn4:hover {
+        background-color: black;
+    }
+    
+    .price4 {
+        background-color:#00aaff;
+        color: black;
+        padding: 4px 5px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+>>>>>>> 85fa737c1d859c409e8bed9e0a7e894225e6c6f5:bbm/user/css/servic.css

@@ -38,7 +38,11 @@ include("config.php");
 				$quer = mysqli_query($conn, $queryy);
 
 				if (mysqli_num_rows($quer) == 1) {
+<<<<<<< HEAD
 					header('location:dashboard.php');
+=======
+					header('location:admin.php');
+>>>>>>> 85fa737c1d859c409e8bed9e0a7e894225e6c6f5
 					echo "<script>alert('Login successfully')</script>";
 				} else {
 					echo "<script>alert('Incorrect Password or Username')</script>";

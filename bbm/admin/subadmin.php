@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html lang="en">
@@ -87,3 +88,10 @@
     </div>
 </body>
 </html>
+=======
+<?php
+include('sidebar.php');
+echo "this is sub admin";
+
+?>
+>>>>>>> 85fa737c1d859c409e8bed9e0a7e894225e6c6f5
